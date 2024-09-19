@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <!--class name="com.eatsure.sampletest.D2C_VR_D2CAPP_EndtoEnd_SANITY2"/-->
+      <class name="com.eatsure.sampletest.D2C_VR_ESAPP_CARTPage"/>
+      <class name="com.eatsure.sampletest.D2C_VR_ESAPP_TrackingPage2"/>
+      <class name="com.eatsure.sampletest.D2C_VR_ESAPP_SANITY"/>
+      <class name="com.eatsure.sampletest.D2C_VR_ESAPP_EndtoEnd_SANITY"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
